@@ -11,19 +11,19 @@ import NotFoundPage from "./pages/NotFoundPage"
 
 const router = createBrowserRouter([
   {
-    path: "/vite-basic-with-routing/",
+    path: "/vite-react-router/",
     element: <App />,
     children: [
       {
-        path: "/vite-basic-with-routing/",
+        path: "/vite-react-router/",
         element: <Home />,
       },
       {
-        path: "/vite-basic-with-routing/profiles",
+        path: "/vite-react-router/profiles",
         element: <ProfilesPage />,
         children: [
           {
-            path: "/vite-basic-with-routing/profiles/:profileId",
+            path: "/vite-react-router/profiles/:profileId",
             element: <ProfilePage />,
           },
         ],

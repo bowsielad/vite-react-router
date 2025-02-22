@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav className="main-navigation">
       <NavLink
-        to="/vite-basic-with-routing/"
+        to="/vite-react-router/"
         className={({ isActive }) => {
           return isActive ? "nav-active" : ""
         }}
@@ -12,7 +12,7 @@ function Nav() {
         Home
       </NavLink>
       <NavLink
-        to="/vite-basic-with-routing/profiles"
+        to="/vite-react-router/profiles"
         className={({ isActive }) => {
           return isActive ? "nav-active" : ""
         }}

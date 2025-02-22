@@ -16,7 +16,7 @@ export default function ProfilesPage() {
           {profiles.length
             ? profiles.map((profile) => (
                 <NavLink
-                  to={`/vite-basic-with-routing/profiles/${profile}`}
+                  to={`/vite-react-router/profiles/${profile}`}
                   key={profile}
                   className={({ isActive }) => {
                     return isActive ? "nav-active" : ""

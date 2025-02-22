@@ -4,7 +4,7 @@ export default function NotFoundPage() {
   return (
     <>
       <h1>404 Not Found</h1>
-      <Link to="/vite-basic-with-routing/">Home</Link>
+      <Link to="/vite-react-router/">Home</Link>
     </>
   )
 }
